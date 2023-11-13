@@ -3,4 +3,39 @@
     padding: 0;
 
 }
+/* Navigation bar section */
+.nav{
+    width: auto;
+    height: 80px;
+    background-color: red;
+    display: flex;
+    position: relative;
+}
+/* logo  */
+.logo{
+    background: green;
+    height: 50px;
+    width: 198px;
 
+    margin: 15px 95px;
+}
+
+
+
+/* search */
+.search{
+    background: purple;
+    height: 36px;
+    width: 525px;
+    margin: 22px 493px;
+
+}
+
+
+/* menu */
+.menu{
+    height: 36px;
+    width: 114px;
+    background-color: aqua;
+    margin: 22px 500px;
+}
