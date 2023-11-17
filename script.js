@@ -15,7 +15,7 @@
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
-          console.log(data.results)
+          // console.log(data.results)
         showMovies(data.results);
       });
   }

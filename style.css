@@ -140,3 +140,39 @@ body{
 .movie:hover .overview{
     transform: translateY(0);
 }
+
+@media (max-width: 1250px) {
+   .logo{
+    display: none;
+    
+   }
+  }
+
+
+   @media (max-width: 740px) {
+    .logo{
+     display: none;
+
+
+    }
+    .search{
+        /* margin-top: 1%; */
+        background-color: transparent;
+        border: 2px solid var(--primary-color);
+        border-radius: 50px;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        color:white;
+        margin-left: 30%;
+        margin-right: 25%;  
+        width: 150px;
+    }
+    
+    .header {
+        width: 70%;
+        margin-left: 15%;
+        margin-right:15%;
+        height: 50px;
+    }
+   }   
