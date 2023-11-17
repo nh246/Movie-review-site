@@ -114,16 +114,18 @@ body{
     border-radius: 3px;
     font-weight: bold;
 
+
 }
-.movie-info span .green{
+.green{
     color: green;
 }
-.movie-info span .orange{
+.orange{
     color: orange;
 }
-.movie-info span .red{
+.red{
     color:red;
 }
+
 
 .overview {
    position: absolute;

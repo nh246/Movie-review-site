@@ -42,10 +42,10 @@
       });
   }
 
-  function getColor(vote){
-      if(vote >= 8){
+  function getColor(vote_average){
+      if(vote_average>= 8){
           return 'green';
-      } else if(vote >= 5){
+      } else if(vote_average >= 5){
           return 'orange';
       } else {
           return 'red';
